@@ -49,4 +49,4 @@
 
 
 ### **Frequency of Baseline Characteristics in Clinical Trials (out of 25 total)**
-![Frequency of Baseline Characteristics](path/to/your/image/baseline_characteristics_frequency.png)
+![Frequency of Baseline Characteristics](images/baseline_characteristics_frequency.png)
