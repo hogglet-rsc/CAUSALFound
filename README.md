@@ -50,3 +50,6 @@
 
 ### **Frequency of Baseline Characteristics in Clinical Trials (out of 25 total)**
 ![Frequency of Baseline Characteristics](images/baseline_characteristics_frequency.png)
+
+### **Summary Workflow**
+![Workflow Summary Diagram](images/CF_Workflow_08_06_25.drawio.png)
