@@ -1,0 +1,72 @@
+How can we test the assumptions of consistency, exchangeability and positivity?
+- sensitivity analyses to different combinations of covariates
+- combinations of covariates chosen and tested for each counterfactual pair (e.g. SGLT2i vs DPP4i)
+- clearly state assumptions and gte them reviewed by experts
+- ensure that assumptions are regularly reviewed to align with current scientific consensus
+- ensure that the causal question (esp intervention) is clearly defined
+- end result (does it calibrate well with RCT data)
+
+Must clearly specify:
+- eligibility criteria (how to match RCT eligibility criteria in observational data)?
+- interventions
+- outcomes
+- start and end of follow up
+- counterfactual pairs
+- DAG
+
+Specifying the DAG:
+- Generate DAGS for the calibration RCTs.
+- Ensure there is agreement between RCTs in terms of DAG.
+- Ensure all arrows are well-specified enough to be causal.
+- Run this DAG by Chris, other subject matter experts.
+- Paste DAG, proposal and causal inference book into Gemini and ask for critique.
+- Run it past Chris again.
+- Ensure the DAG is published for peer review.
+
+IP weighting, can we justify:
+- IP weighting vs standardization, matching or stratification.
+- Can this apply to individuals
+
+Confounding by indication:
+- RCTs have random assignment, but in observational data e.g. SGLT2i will be prescribed due to high CV risk
+- Need to ensure we have controlled for this
+
+Overadjustment bias:
+- Are we adjusting for variables which are also downsteam of treatment? (see fine point 7.4 from book)
+- The difference-in-differences approach uses a negative outcome control e.g. pre-treatment hba1c
+to adjust for unmeasured confounders. Do we do anyting similar with negative outcome controls?
+
+Selection bias:
+- How do we deal with selection bias in our observational data compared with RCT data. 
+In particular
+- Differential loss to follow up 
+- Missing data bias
+- Healthy worker bias
+- Volunteer bias
+- Treatment received before beginning of trial period
+
+Collider bias:
+- Some of our baseline covariates are also effects of treatment.
+- How do we deal with this?
+
+Loss to follow up:
+- Must be included in the DAG and we can decide whether to condition on it.
+- Can maybe use IP weighting for this variable C.
+- Must treat censoring due to death differently from loss to follow up.
+
+Measurement bias:
+- Is there recall bias in our observational data?
+- Are measurement errors independent nondifferential?
+- Draw DAG without measurement error first
+- focus on confounding and selection bias originally
+- then can add in measurement bias
+
+Other considerations:
+- Effect modification
+- Transportability to different populations
+- Is there interference present (e.g. 2 individuals in same home, one is prescribed lifestyle interventions)
+- Have we controlled for 3 forms of systematic bias (confounding, selection and measurement)
+
+Questions:
+- Is our proposal consistent with FFRCISTG? If not, how does it handle time-varying confounding?
+
