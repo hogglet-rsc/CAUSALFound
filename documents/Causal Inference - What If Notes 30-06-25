@@ -1,7 +1,7 @@
 How can we test the assumptions of consistency, exchangeability and positivity?
 - sensitivity analyses to different combinations of covariates
 - combinations of covariates chosen and tested for each counterfactual pair (e.g. SGLT2i vs DPP4i)
-- clearly state assumptions and gte them reviewed by experts
+- clearly state assumptions and get them reviewed by experts
 - ensure that assumptions are regularly reviewed to align with current scientific consensus
 - ensure that the causal question (esp intervention) is clearly defined
 - end result (does it calibrate well with RCT data)
